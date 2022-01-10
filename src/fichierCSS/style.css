@@ -1,0 +1,50 @@
+/*@font-face{
+    font-family: 'roboto';
+    src: url(../police/Roboto-Light.ttf);
+}*/
+
+*{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+p{
+    text-align: justify;
+}
+
+span{
+    color: #2c2f33;
+}
+
+h3 ,h4 ,.recommandation h5{
+    text-transform: uppercase;
+}
+
+#leftAndRightSide{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    width: 100%;
+    height: 30%;
+}
+
+/*PARTIE RESPONSIVE*/
+
+@media screen and (max-width: 960px)
+{
+    #leftAndRightSide{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

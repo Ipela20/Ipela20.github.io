@@ -1,0 +1,125 @@
+#leftSide{
+    width: 32.3%;
+    background-color: #F0C300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/*REGLES COMMUNE A TOUTE LA PARTIE GAUCHE*/
+
+#leftSide h3{
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #2c2f33;
+    color: #F0C300;
+    padding: 5px 0px 5px 0px;
+}
+
+/*PARTIE CONTACT*/
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 300px;
+}
+
+#contact h3{
+    width: 100%;
+    padding: 9px 0 6px 0;
+    margin-bottom: 2rem;
+}
+
+#toutLesContact{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenuContact{
+    width: 75%;
+    min-height:40px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenuContact p{
+    word-wrap: break-word;
+    font-size: 1rem;
+}
+
+/*PARTIE PROPOS*/
+
+#propos{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+#contenuPropos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#propos h3{
+    font-size: 1.7rem;
+    width: 100%;
+    padding: 5px 0 10px 0;
+    margin-bottom:2.1rem;
+}
+
+#propos p{
+    font-size: 1rem;
+    width: 75%;
+    line-height: 20px;
+    margin-bottom: 2rem;
+}
+
+/*PARTIE LOISIRS*/
+
+#loisirs{
+    display: flex;
+    width: 100%;
+    min-height: 130px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#loisirs h3{
+    width: 100%; 
+    padding: 10px 0 3px 0;
+}
+
+#iconeLoisirs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width:85%;
+    min-height: 150px;
+}
+
+#loisirs .fas{
+    color: #2c2f33;
+}
+
+/*PARTIE RESPONSIVE*/
+
+@media screen and (max-width: 960px){
+
+    #leftSide{
+        width: 100%;
+        margin-bottom: 70px;
+    }
+}

@@ -1,0 +1,197 @@
+
+#rightSide{
+    width: 67.7%;
+    min-height: 900px;
+}
+
+.fas{
+    color: #F0C300;
+}
+
+.poste{
+    width: 100%;
+    min-height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+} 
+
+.poste .fas {
+    font-size: 8px;
+    padding-right: 8px;
+    color: #F0C300;
+}
+
+article .fa-stack {
+    font-size: 8px;
+    color: #F0C300;
+}
+
+.point{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 33.2%;
+    margin-top: 3px;
+}
+
+.point .fas{
+    padding-top: 3px;
+}
+
+.pointStack{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 33.2%;
+    margin-top: 3px;
+}
+
+.dateEtLieu p{
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.dateEtLieu{
+    width: 87%;
+}
+
+/*TITRES ARTICLE*/
+
+#rightSide h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-left: 4.6%;
+}
+
+.titre{
+    width: 93.7%;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px #F0C300 solid;
+}
+
+.titre .fas{
+    font-size: 40px;
+}
+
+.titre h3{
+    font-weight: bold;
+}
+
+/* PARTIE DESCRIPTION */
+
+.description {
+    width: 59.8%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    align-items: flex-start;
+}
+
+.description h4{
+    padding: 5px 0 0 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.description h5{
+    padding: 7px 0 4px 0;
+    font-size: 1.05rem;
+}
+
+.description p{
+    padding: 4px 0 13px 0;
+    font-size: 1.05rem;
+}
+
+
+/*PARTIE SECTION*/
+
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-end ;
+}
+
+article{
+    width: 92.2%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/*PARTIE FORMATION*/
+
+#formation{
+    min-height: 200px;
+}
+
+/*PARTIE EXPERIENCE*/
+
+#experience .titre .fas{
+    margin-left: 0.3rem;
+} 
+
+#experience{
+    min-height: 300px;
+}
+
+#experience h3{
+    padding-left: 6.04%;
+}
+
+/*PARTIE RESPONSIVE*/
+
+@media screen and (max-width: 960px){
+    #rightSide{
+        width: 100%;
+    }
+
+    section{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .poste{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .point{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 210px;
+    }
+
+    .pointStack{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 210px;
+    }
+
+    .description{
+        width: 95%;
+        margin-bottom: 15px;
+    }
+
+    #formation{
+        height: auto ;
+    }
+
+    .recommandation{
+        margin-top: 20px;
+    }
+
+    #rightSide h3{
+        font-size: 1.6rem;
+        width: 310px;
+    }
+}
